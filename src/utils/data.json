@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "sender": "Mark Webber",
+      "read": false,
+      "profilePhoto": "./assets/images/avatar-mark-webber.webp",
+      "actualMessage": "post",
+      "augmentMessage": "My first tournament today!",
+      "date": "1m"
+    },
+    {
+      "sender": "Angela Gray",
+      "read": false,
+      "profilePhoto": "./assets/images/avatar-angela-gray.webp",
+      "actualMessage": "follow",
+      "date": "5m"
+    },
+    {
+      "sender": "Jacob Thompson",
+      "read": false,
+      "profilePhoto": "./assets/images/avatar-jacob-thompson.webp",
+      "actualMessage": "group",
+      "augmentMessage": "Chess Club",
+      "augmentMessageType": "group",
+      "date": "1 day"
+    },
+    {
+      "sender": "Rizky Hasanuddin",
+      "read": true,
+      "profilePhoto": "./assets/images/avatar-rizky-hasanuddin.webp",
+      "actualMessage": "private",
+      "date": "5 days",
+      "messageBody": "Hello, thanks for setting up the Chess Club,I've been a member for a few weeks now and I'm already having lots of fun and improving my game"
+    },
+    {
+      "sender": "Kimberly Smith",
+      "read": true,
+      "profilePhoto": "./assets/images/avatar-kimberly-smith.webp",
+      "actualMessage": "comment",
+      "date": "1 week",
+      "commentPicture": "./assets/images/image-chess.webp"
+    },
+    {
+      "sender": "Nathan Peterson",
+      "read": true,
+      "profilePhoto": "./assets/images/avatar-nathan-peterson.webp",
+      "actualMessage": "post",
+      "augmentMessage": "5 end-game strategies to Increase your win rate",
+      "date": "2 weeks"
+    },
+    {
+      "sender": "Anna Kim",
+      "read": true,
+      "profilePhoto": "./assets/images/avatar-anna-kim.webp",
+      "actualMessage": "leftGroup",
+      "date": "2 weeks"
+    }
+  ]
+}

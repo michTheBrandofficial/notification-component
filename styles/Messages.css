@@ -1,0 +1,118 @@
+.messages {
+  height: 92%;
+  overflow: auto;
+  border-radius: 5px;
+}
+.messages::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* add media queries */
+
+.messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+.messages::-webkit-scrollbar-thumb:hover {
+  background: hsl(219, 14%, 63%, .2);
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.message, .unread-marker {
+  transition: .7s;
+}
+
+.message {
+  width: 100%;
+  min-height: fit-content;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 12.5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.message.unread {
+  background-color: hsl(210, 60%, 98%);
+}
+
+.message:hover {
+  background-color: hsl(205, 33%, 90%, .8);
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+}
+
+.message h4:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.other-info {
+  width: 90%;
+  min-height: fit-content;
+  margin: 0 12.5px;
+}
+
+.other-info .text {
+  width: 100%;
+  min-height: fit-content;
+  margin-bottom: 4px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+p, h4, .date {
+  font-size: 14px;
+}
+
+.text h4, .text h3  {
+  font-family: 'Plus Jakarta Sans 500';
+}
+
+.text p, .text h4, .text h3 {
+  margin-right: 6px;
+}
+
+.actual-message, .message-body {
+  color: hsl(219, 14%, 63%);
+  font-family: 'Plus Jakarta Sans 500';
+}
+
+.augment-message {
+  color: hsl(219, 12%, 42%, .8);
+}
+
+.augment-message.group {
+  color: hsl(219, 85%, 26%);
+}
+
+.message.unread .unread-marker {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: hsl(1, 90%, 64%);
+}
+
+.other-info .date {
+  color: hsl(219, 14%, 63%, .6);
+}
+
+.other-info .message-body {
+  width: 100%;
+  min-height: fit-content;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid hsl(205, 33%, 90%);
+  border-radius: 5px;
+}
+
+.message-body:hover {
+  background-color: hsl(205, 33%, 90%, .8);
+}
