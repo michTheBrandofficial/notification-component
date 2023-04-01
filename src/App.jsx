@@ -10,7 +10,7 @@ export default function App()  {
 			message.classList.remove('unread')
 		});
 		// @ts-ignore
-		readButton.current.style.display = 'none';
+		readButton.current.textContent = '0';
 	}
 
 	return (
